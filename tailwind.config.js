@@ -1,10 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['index.html'],
+  darkMode: 'selector',
   theme: {
     container: {
       center: true,
-      padding : '16px'
+      padding: '10px'
     },
     extend: {
       colors: {
